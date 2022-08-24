@@ -1,26 +1,103 @@
 /* Stylesheet for Odin Recipes Project */
 
 body {
-    padding: 50px;
+    padding: 0 300px;
     background-color: lightgrey;
+    font-size: 24px;
 }
 
 /* Headers */
 
 .header {
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bold;
     color: navy;
+    text-align: center;
 }
 
 .subheader {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     color: darkgreen;
+    padding-top: 5px;
+}
+
+/* Sections */
+
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ingredients {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.steps {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Images */
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid steelblue;
+}
 
+/* Lists */
 
-/* Text */
+ul > li {
+    list-style: circle;
+    line-height: 2;
+}
+
+ol > li {
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1300px) {
+    body {
+        padding: 50px;
+    }
+    .description {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ingredients {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .steps {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+    body {
+        padding: 0px;
+    }
+    img {
+        display: none;
+    }
+    .description {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .ingredients {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .steps {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
