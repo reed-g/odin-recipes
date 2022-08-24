@@ -4,3 +4,23 @@ body {
     padding: 50px;
     background-color: lightgrey;
 }
+
+/* Headers */
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    color: navy;
+}
+
+.subheader {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* Images */
+
+
+
+/* Text */
