@@ -55,6 +55,15 @@ img {
     height: auto;
 }
 
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid steelblue;
+    width: 300px;
+    height: auto;
+}
+
 /* Lists */
 
 ul > li {
