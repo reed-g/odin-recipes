@@ -25,6 +25,10 @@ body {
 
 /* Sections */
 
+.nav {
+    margin-top: 20px;
+}
+
 .description {
     margin-left: 10%;
     margin-right: 10%;
@@ -79,7 +83,10 @@ ol > li {
 
 @media (max-width: 1300px) {
     body {
-        padding: 50px;
+        padding: 20px;
+    }
+    .nav {
+        margin-top: 10px;
     }
     .description {
         margin-left: 5%;
@@ -103,6 +110,9 @@ ol > li {
     }
     img {
         display: none;
+    }
+    .nav {
+        margin-top: 5px;
     }
     .description {
         margin-left: 0%;
