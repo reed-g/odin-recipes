@@ -7,6 +7,12 @@ body {
     font-size: 24px;
 }
 
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
 /* Headers */
 
 .header {
