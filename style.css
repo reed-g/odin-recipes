@@ -1,7 +1,7 @@
 /* Stylesheet for Odin Recipes Project */
 
 body {
-    padding: 0 300px;
+    padding: 0 50px;
     background-color: lightgrey;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -10,18 +10,20 @@ body {
 /* Flexbox Practice */
 
 .recipe-list {
-    width: 800px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .recipe-item {
-    width: 600px;
+    width: 400px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+
+.recipe-item img {
+    max-width: 300px;
 }
 
 /* Links */
